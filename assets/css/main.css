@@ -1592,3 +1592,9 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+/* Map */
+#map {
+  height: 400px;
+  width: 100%;
+}		
