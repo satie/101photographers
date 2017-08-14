@@ -14,7 +14,7 @@ $('#contactForm').submit(function(event) {
     url: postUrl,
     contentType: 'application/json',
     crossDomain: true,
-    data: contactData
+    data: JSON.stringify(contactData)
   }).done(function(response) {
     console.log(data);
   }).fail(function(error) {
