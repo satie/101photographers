@@ -13,9 +13,8 @@ $('#contactForm').submit(function(event) {
     type: 'POST',
     url: postUrl,
     contentType: 'application/json',
-    crossDomain: true,
-    data: contactData,
-    dataType: 'json'
+    // crossDomain: true,
+    data: contactData
   }).done(function(response) {
     console.log(data);
   }).fail(function(error) {
