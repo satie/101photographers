@@ -16,7 +16,7 @@ $('#contactForm').submit(function(event) {
     crossDomain: true,
     data: JSON.stringify(contactData)
   }).done(function(response) {
-    console.log(data);
+    console.log(response);
   }).fail(function(error) {
     console.log(error);
   });
