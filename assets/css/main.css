@@ -1680,3 +1680,15 @@ section.gallery div img {
     top: -2.5vmin;
   }
 }
+
+/* span */
+span.message {
+	color: #ffffff;
+	visibility: hidden;
+	font-size: 0.8rem;
+	font-weight: 300;
+	letter-spacing: 0.2rem;
+	line-height: 1.5;
+	margin: 0 0 1rem 0;
+	text-transform: uppercase;
+}
